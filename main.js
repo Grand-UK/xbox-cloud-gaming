@@ -15,8 +15,7 @@ function createWindow() {
 
   // Remove menu for cleaner look and load website
   mainWindow.removeMenu()
-  mainWindow.loadURL('https://play.geforcenow.com/')
-  mainWindow.maximize()
+  mainWindow.loadURL('https://www.xbox.com/en-US/play')
 
 
   // Open the DevTools.
@@ -54,7 +53,7 @@ app.whenReady().then(() => {
 
 // Controls the sites which userstring works
 const wsites = {
-  urls: ['https://*.play.geforcenow.com/*', '*://electron.github.io']
+  urls: ['https://www.xbox.com/*', '*://electron.github.io']
 }
 
 // Fucntion used for setting user string
